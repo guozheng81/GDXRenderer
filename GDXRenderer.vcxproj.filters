@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b5450c74-8b52-4dcc-b9f4-a02a7f3ed2fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT11\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT11\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT11\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT11\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT11\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="Shaders\Common.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Scene.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PostProcessing.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SSAO.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\MotionBlur.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TiledDeferredLighting.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PBR.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Utils.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Voxelization.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\VoxelConeTracer.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\CommonHelper.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\AtmosphereScatteringHelper.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\AtmosphereScattering.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Noise.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TemporalAA.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SkyLight.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\RayTraceSphere.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SVGF.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\LPVHelper.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\LPV.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\SceneRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderUtils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PostProcess.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkyLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainRenderer.cpp" />
+    <ClCompile Include="Source\MotionBlur.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TiledDeferredLighting.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoxelConeTracer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AtmosphereScattering.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Histogram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DOF.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TemporalAA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderPass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RayTraceSphere.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LPV.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="BasicHLSL11.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Source\SceneRenderer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderUtils.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PostProcess.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkyLight.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MotionBlur.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TiledDeferredLighting.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoxelConeTracer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AtmosphereScattering.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Histogram.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DOF.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TemporalAA.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderPass.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RayTraceSphere.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LPV.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
