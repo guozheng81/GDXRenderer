@@ -140,6 +140,7 @@
     <None Include="Shaders\LPV.hlsl">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\SceneRenderer.cpp">
@@ -184,6 +185,9 @@
     </ClCompile>
     <ClCompile Include="Source\LPV.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\dxerr.cpp">
+      <Filter>DXUT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="Source\LPV.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\dxerr.h">
+      <Filter>DXUT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
