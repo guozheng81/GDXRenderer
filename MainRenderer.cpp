@@ -210,6 +210,7 @@ bool CALLBACK ModifyDeviceSettings( DXUTDeviceSettings* pDeviceSettings, void* p
 {
     // Uncomment this to get debug information from D3D11
     //pDeviceSettings->d3d11.CreateFlags |= D3D11_CREATE_DEVICE_DEBUG;
+	pDeviceSettings->d3d11.SyncInterval = 2;
 
     // For the first device created if its a REF device, optionally display a warning dialog box
     static bool s_bFirstTime = true;
